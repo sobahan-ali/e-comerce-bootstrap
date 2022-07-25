@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="background_color">
+    <header class="">
+      <section class="">
         <!-- ----------------------navber start form here------------------------>
-        <nav class="container navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+        <nav class="container navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container mb-5">
               <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,26 +26,27 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
+        </section>
     </header>
 
     <!-- -------------navbar end form here------------------- -->
     <!-- -----------main section start form here--------------- -->
     <main>
         <!-- ---------------slide start from here--------------------- -->
-        <section class="top_banner mb-5">
-            <div id="carouselExampleControls" class="carousel slide"              data-bs-ride="carousel">
+        <section class="top_banner container my-5">
+            <div id="carouselExampleControls" class="carousel slide"data-bs-ride="carousel">
                 <div class="carousel-inner container bg-color">
                   <div class="carousel-item active">
                     <div class="row align-items-center justify-content-center p-5">
@@ -93,7 +95,7 @@
 
         <!-----------bag section start form here----------- -->
         <section>
-          <div class="container text-center mb-5">
+          <div class="container text-center my-5" id="backpack">
             <div class="row gy-5">
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="bg-customm text-dark p-3 d-flex align-items-center justify-content-around">
@@ -120,9 +122,9 @@
         <!-----------bag section end form here----------- -->
 
          <!-----------shoes section start form here----------- -->
-         <section class="container mb-5">
+         <section class="container mb-5" id="shoes">
             <h1>Shoes</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                   <div class="card h-100  shadow bg-body rounded border-0">
                     <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -160,7 +162,7 @@
          <!-----------shoes section end form here----------- -->
 
          <!-- --------form section start form here---------- -->
-         <section class="container input_filled mb-5 d-flex justify-content-center p-5">
+         <section class="container input_filled mb-5 d-flex justify-content-center p-5" id="subscribe">
                 <form>
                     <h1>LET'S STAY IN TOUCH</h1>
                     <p>Get updates on sales, specials and more</p>
@@ -173,7 +175,7 @@
 
     <!--------------- footer section start form here-------------- -->
         <footer class="footer">
-            <p>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+            <p>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
         </footer>
     <!--------------- footer section end form here-------------- -->
 
