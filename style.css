@@ -1,0 +1,32 @@
+/*----------------------- nav bar color---------------------- */
+.background_color{
+    background-color: rgb(250, 240, 242);
+}
+
+/* .top_banner{
+    background-color: #f8f9fa;
+} */
+
+.reguler_btn{
+    background-image: linear-gradient(#f31081, tomato);
+}
+.btn:hover{
+    background-color: blue;
+}
+/*------------------------ color for slides ------------------------*/
+.bg-color{
+    background-color: #ffe6ea;
+}
+
+.input_filled{
+    background-color: #ffe6ea;
+}
+
+.footer{
+    background-color: #fcf8f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
