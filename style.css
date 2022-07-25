@@ -1,6 +1,14 @@
 /*----------------------- nav bar color---------------------- */
 
+.my_navigation{
+    background-color: hotpink;
+}
 
+/* for slide margin top */
+
+.top_banner{
+    margin-top: 80px;
+}
 
 .reguler_btn{
     background-image: linear-gradient(#f31081, tomato);
